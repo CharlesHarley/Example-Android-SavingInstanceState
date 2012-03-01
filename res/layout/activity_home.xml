@@ -50,38 +50,11 @@
             android:layout_marginBottom="5dp"
             />
 
-        <!--<com.example.android.savinginstancestate.views.LockCombinationPicker
+        <com.example.android.savinginstancestate.views.LockCombinationPicker
             android:id="@+id/lock_combination"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            />-->
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            >
-
-            <NumberPicker
-                android:id="@+id/number1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                />
-
-            <NumberPicker
-                android:id="@+id/number2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                />
-
-            <NumberPicker
-                android:id="@+id/number3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
-
-        </LinearLayout>
+            />
 
     </LinearLayout>
 

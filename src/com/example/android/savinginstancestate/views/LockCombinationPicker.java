@@ -64,7 +64,6 @@ public class LockCombinationPicker extends LinearLayout {
 
     @Override
     protected void dispatchSaveInstanceState(SparseArray<Parcelable> container) {
-        // TODO Expand on what this method does and who calls it. Also describe why we call through to a different super.
         // As we save our own instance state, ensure our children don't save and restore their state as well.
         super.dispatchFreezeSelfOnly(container);
     }
